@@ -4,7 +4,7 @@ import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatche
 
 public class AppInit extends AbstractAnnotationConfigDispatcherServletInitializer {
 
-    // Метод, указывающий на класс конфигурации
+    // Метод, указывающий н а класс конфигурации
     @Override
     protected Class<?>[] getRootConfigClasses() {
         return null;
@@ -20,7 +20,7 @@ public class AppInit extends AbstractAnnotationConfigDispatcherServletInitialize
     }
 
 
-    /* Данный метод указывает url, на котором будет базироваться приложение */
+    /* Данный метод указывает url, на ко тором будет базироваться приложение */
     @Override
     protected String[] getServletMappings() {
         return new String[]{"/"};

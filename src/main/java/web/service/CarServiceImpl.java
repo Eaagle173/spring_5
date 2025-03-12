@@ -10,7 +10,7 @@ public class CarServiceImpl implements CarService {
     CarDao carDao = new CarDaoImpl();
 
     @Override
-    public List<Car> count(List list, Integer count) {
-        return carDao.count(list, count);
+    public List<Car> count(Integer count) {
+        return carDao.count(count);
     }
 }
